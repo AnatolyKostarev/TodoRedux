@@ -4,7 +4,7 @@ import ListItem from "./ListItem";
 
 const List = () => {
   const { todos } = useSelector((state) => state.todosState);
-  console.log(todos);
+  // console.log(todos);
   return (
     <ul>
       {todos.map((elem) => (

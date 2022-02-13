@@ -4,7 +4,7 @@ import { toggleTodo } from "../store/actions/todosActions";
 
 const ListItem = ({ id, content, done }) => {
   const dispatch = useDispatch();
-  console.log(done);
+  // console.log(done);
 
   const handleToggleTodo = () => {
     dispatch(toggleTodo(id));
